@@ -56,10 +56,8 @@ if __name__ == "__main__":
     base_model = "google/gemma-2b-it"
     finetuned_model = "Yanmife/gemma-2b-it-health"
 
-    # Load model + tokenizer
     model, tokenizer = load_model(base_model, finetuned_model)
 
-    # Example input
     new_input = {
         "Description": "I'm a 35-year-old male with a history of hypertension. "
                        "I've been having headaches and dizziness for the past week. "
