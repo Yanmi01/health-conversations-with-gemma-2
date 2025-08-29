@@ -1,9 +1,8 @@
 MODEL_NAME = "google/gemma-2b-it"
-NEW_MODEL_REPO = "Yanmife/gemma-2b-health-fp-it"
-WANDB_PROJECT = "Fine-tuning-Gemma-2B-health-fp-it"
+NEW_MODEL_REPO = "Yanmife/gemma-2b-it-health-convo-big"
+WANDB_PROJECT = "Gemma-2-it-big"
 
-MAX_SEQ_LEN = 512
-NUM_EPOCHS = 2
-BATCH_SIZE = 1
+NUM_EPOCHS = 3
+BATCH_SIZE = 2
 GRAD_ACCUM = 8
-LEARNING_RATE = 1e-5
+LEARNING_RATE = 1e-6
